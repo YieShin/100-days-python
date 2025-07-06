@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4adbd76-b7ab-4f15-b3c4-3a5ccfc0bb29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-workout.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day-40-Flight-Search-Amadeus-Start/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Day-40-Flight-Search-Amadeus-Start/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/flight-deals-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4

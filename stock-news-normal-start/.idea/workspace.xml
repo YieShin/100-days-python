@@ -4,28 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f53e34-39a6-4337-b1ca-41a3f9619d39" name="Changes" comment="" />
+    <list default="true" id="28f53e34-39a6-4337-b1ca-41a3f9619d39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day-40-Flight-Search-Amadeus-Start/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Day-40-Flight-Search-Amadeus-Start/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/flight-deals-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flight-deals-start angela/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-workout/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-workout/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-workout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-workout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2yUsvLRI5RgdqZzZJUBiaJPG15o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yieshin/Desktop/100-days-of-code/stock-news-normal-start"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yieshin/Desktop/100-days-of-code/stock-news-normal-start&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
