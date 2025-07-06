@@ -135,7 +135,7 @@ class FlightSearch:
             "departureDate": from_time.strftime("%Y-%m-%d"),
             "returnDate": to_time.strftime("%Y-%m-%d"),
             "adults": 1,
-            "nonStop": is_direct,
+            "nonStop": "true" if is_direct else "false",
             "currencyCode": "MYR",
             "max": "10",
         }

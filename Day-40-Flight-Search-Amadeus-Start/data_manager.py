@@ -1,13 +1,12 @@
 import os
-import requests
-from requests.auth import HTTPBasicAuth
-from dotenv import load_dotenv
 from pprint import pprint
+
+import requests
+from dotenv import load_dotenv
+from requests.auth import HTTPBasicAuth
 
 # Load environment variables from .env file
 load_dotenv()
-
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/a3750343d6b25d22942c077745d919c9/flightDeals/prices"
 
 
 class DataManager:
@@ -16,11 +15,14 @@ class DataManager:
         self._user = os.environ["SHEETY_USERNAME"]
         self._password = os.environ["SHEETY_PASSWORD"]
         self._authorization = HTTPBasicAuth(self._user, self._password)
+        self.prices_endpoint = os.environ["SHEETY_PRICES_ENDPOINT"]
+        self.users_endpoint = os.environ["SHEETY_USERS_ENDPOINT"]
         self.destination_data = {}
+        self.customer_data = {}
 
     def get_destination_data(self):
         # Use the Sheety API to GET all the data in that sheet and print it out.
-        response = requests.get(url=SHEETY_PRICES_ENDPOINT, auth=self._authorization)
+        response = requests.get(url=self.sheety_price_endpoint, auth=self._authorization)
         data = response.json()
         pprint(data)
         self.destination_data = data["prices"]
@@ -38,7 +40,14 @@ class DataManager:
                 }
             }
             response = requests.put(
-                url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
+                url=f"{self.sheety_price_endpoint}/{city['id']}",
                 json=new_data
             )
             print(response.text)
+
+    def get_customer_emails(self):
+        response = requests.get(url=self.sheety_user_endpoint, auth=self._authorization)
+        data = response.json()
+        print(data)
+        self.customer_data = data["users"]
+        return self.customer_data
