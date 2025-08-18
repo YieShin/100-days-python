@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dc116bf-0c67-4dd5-8001-13a9341062e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/day-19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-18-start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-18-start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -35,7 +43,8 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/yieshin/Documents/100-days-of-code/day-19&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RunManager">
@@ -48,8 +57,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (day-17-start) (2)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -79,5 +89,10 @@
       <updated>1711260735086</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

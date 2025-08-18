@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c1a068-868d-45dc-9c9f-ded27c39c712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/day-16-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="80fb2f4f-cfaa-40a2-8196-f5e22046dcf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-18-start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snake_game/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,26 +21,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2do3jX3tmBI9FGnvlhoO44P14m2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2zrrLBFUhz8mq3I3DBYYcyH4RvD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/yieshin/Documents/100-days-of-code/day-16-start",
+    "settings.editor.selected.configurable": "configurable.group.project"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="day-16-start" />
@@ -49,8 +51,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (day-17-start) (2)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -73,11 +76,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05c1a068-868d-45dc-9c9f-ded27c39c712" name="Changes" comment="" />
-      <created>1710660739059</created>
+      <changelist id="80fb2f4f-cfaa-40a2-8196-f5e22046dcf1" name="Changes" comment="" />
+      <created>1752499975336</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710660739059</updated>
+      <updated>1752499975336</updated>
     </task>
     <servers />
   </component>
