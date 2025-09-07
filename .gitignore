@@ -49,3 +49,13 @@ Icon?
 
 /Day-40-Flight-Search-Amadeus-Start/.env
 
+# IDE configs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Flask
+instance/
+*.db
