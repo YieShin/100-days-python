@@ -9,7 +9,7 @@ Hi, I’m Nickolas (Chua Yie Shin), aspiring software developer based in Johor B
 I'm currently transitioning into tech, focusing on Python and data science.
 
 - 🎯 Goal: Become a full-time software developer or data analyst
-- 👨‍💻 Experience: 40+ days into the challenge (currently on Day 40)
+- 👨‍💻 Experience: 60+ days into the challenge (currently on Day 63)
 - 🔧 Tools: Python, Git, GitHub, JSON, APIs, OOP, Tkinter, Requests
 
 ---
@@ -21,7 +21,9 @@ I'm currently transitioning into tech, focusing on Python and data science.
 | Day 1–15  | Python basics, control flow, loops, functions        | ✅ Completed |
 | Day 16–30 | OOP, file handling, GUI apps with Tkinter            | ✅ Completed |
 | Day 31–40 | APIs, authentication, JSON, environment variables    | ✅ Completed |
-| Day 41–100| Advanced projects, web scraping, automation, more…   | 🔄 In Progress |
+| Day 41–50   | Web scraping, automation scripts, API integration    | ✅ Completed |
+| Day 51–61   | Advanced automation projects, web bots, Flask basics | ✅ Completed |
+| Day 62–64   | Flask web apps, Top Movies project, Bootstrap styling | 🔄 In Progress |
 
 ---
 
@@ -37,6 +39,7 @@ I'm currently transitioning into tech, focusing on Python and data science.
 | 🌦 Rain Alert (API)                  | Sends SMS alert if it’s going to rain today    | –    |
 | 💰 Stock News Notifier              | Alerts you if stock price moves sharply        | –    |
 | ✈️ Flight Deal Finder (Day 40)      | Uses Sheety + Amadeus API to find cheap flights| –    |
+| 🎬 Top Movies Web App (Day 64)       | Flask + Bootstrap app displaying top movies       | –    |
 
 > ℹ️ Many projects use **APIs**, **.env files**, and are cleaned of any sensitive data before uploading.
 

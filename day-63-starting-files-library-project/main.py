@@ -119,3 +119,18 @@ if __name__ == "__main__":
 #     # or book_to_delete = db.get_or_404(Book, book_id)
 #     db.session.delete(book_to_delete)
 #     db.session.commit()
+# Instructions to remove all `.venv` folders inside subfolders of the `100-days-python` project:
+#
+# 1. Open Terminal.
+# 2. Navigate to the repo root:
+#    ```
+#    cd /Users/yieshin/Documents/100-days-python
+#    ```
+# 3. Run this command to delete all `.venv` inside subfolders recursively:
+#    ```
+#    find . -type d -name ".venv" -exec rm -rf {} +
+#    ```
+# 4. Confirm by listing subfolders to ensure `.venv` is gone:
+#    ```
+#    find . -type d -name ".venv"
+#    ```
