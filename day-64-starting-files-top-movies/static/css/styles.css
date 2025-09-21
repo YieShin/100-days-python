@@ -210,5 +210,8 @@
 	 font-weight: bold;
 }
  .release_date {
-	 font-weight: normal;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    text-align: center;
 }

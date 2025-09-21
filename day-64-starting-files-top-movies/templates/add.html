@@ -6,4 +6,12 @@
 <div class="content">
     <h1 class="heading">Add a Movie</h1>
 </div>
+<div class="content" style="display: flex; justify-content: center; align-items: center; min-height: 70vh;">
+    <form action="{{ url_for('add_movie') }}" method="POST" style="width: 400px; display: flex; flex-direction: column; gap: 1rem;">
+        <label for="title" style="font-weight: bold;">Movie Title</label>
+        <input id="title" name="title" type="text" class="form-control"/>
+        <button type="submit" class="button" style="margin-top: 1rem;">Add Movie</button>
+    </form>
+</div>
+
 {% endblock %}

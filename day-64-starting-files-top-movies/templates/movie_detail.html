@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ movie.title }}{% endblock %}
+
+{% block content %}
+<div class="content" style="text-align:center;">
+    <h1>{{ movie.title }}</h1>
+    <p class="release_date"><strong>Release Date:</strong> {{ movie.release_date }}</p>
+    <p><strong>Overview:</strong> {{ movie.overview }}</p>
+    {% if movie.poster_path %}
+    <img src="https://image.tmdb.org/t/p/w500{{ movie.poster_path }}"
+         alt="{{ movie.title }} poster"
+         style="max-width:300px; display:block; margin:0 auto;">
+{% endif %}
+
+<!-- Buttons below image -->
+<div style="width:100%; display:flex; justify-content:center; gap:15px; margin-top:15px;">
+    <form action="{{ url_for('add_to_database', movie_id=movie['id']) }}" method="post">
+        <button type="submit">Add to Database</button>
+    </form>
+    <a href="{{ url_for('home') }}">
+        <button type="button">⬅ Back to Home</button>
+    </a>
+</div>
+</div>
+{% endblock %}
