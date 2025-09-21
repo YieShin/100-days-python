@@ -1,4 +1,7 @@
+import os
+
 import requests
+from dotenv import load_dotenv
 from flask import Flask, render_template, request, redirect, url_for
 from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
@@ -8,6 +11,9 @@ from sqlalchemy.orm import Mapped, mapped_column
 from wtforms import FloatField, SubmitField
 from wtforms.fields.simple import TextAreaField
 from wtforms.validators import DataRequired, NumberRange
+
+load_dotenv()
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
@@ -93,13 +99,13 @@ def edit(id):
 def delete_movie():
     movie_id = request.args.get("id")
     movie = db.get_or_404(Movie, movie_id)
-    print(movie)
     db.session.delete(movie)
     db.session.commit()
     return redirect(url_for("home"))
 
 
-TMDB_API_KEY = "681c12a1a867d0542f9b76c9f66d8222"
+load_dotenv()
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
 @app.route("/add", methods=["GET", "POST"])
@@ -152,6 +158,7 @@ def add_to_database(movie_id):
     db.session.commit()
 
     return redirect(url_for("home"))
+
 
 if __name__ == '__main__':
     app.run(debug=True)
