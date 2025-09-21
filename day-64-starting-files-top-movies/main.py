@@ -16,7 +16,6 @@ load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap5(app)
 
 # CREATE DB
@@ -103,9 +102,6 @@ def delete_movie():
     db.session.commit()
     return redirect(url_for("home"))
 
-
-load_dotenv()
-TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
 @app.route("/add", methods=["GET", "POST"])

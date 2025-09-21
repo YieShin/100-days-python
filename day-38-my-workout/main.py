@@ -3,8 +3,6 @@ from datetime import datetime
 import requests
 from dotenv import load_dotenv
 
-# APP_ID = "862c64af"
-# API_KEY = "66489cff830e16ff67e2edb2de9768ff"
 
 load_dotenv()
 APP_ID = os.getenv("APP_ID")
