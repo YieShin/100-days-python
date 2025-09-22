@@ -4,9 +4,11 @@ import requests
 from dotenv import load_dotenv
 
 
-load_dotenv()
-APP_ID = os.getenv("APP_ID")
-API_KEY = os.getenv("API_KEY")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
+
+APP_ID = os.getenv("DAY_38_MY_WORKOUT_APP_ID")
+API_KEY = os.getenv("DAY_38_MY_WORKOUT_API_KEY")
 
 GENDER = "Male"
 WEIGHT = "65"
@@ -34,9 +36,9 @@ response = requests.post(url=exercise_endpoint, json=parameters, headers=headers
 result = response.json()
 print(result)
 
-SHEETY_ENDPOINT = os.getenv("SHEETY_ENDPOINT")
+SHEETY_ENDPOINT = os.getenv("DAY_38_MY_WORKOUT_SHEETY_ENDPOINT")
 
-SHEETY_HEADERS = {"Authorization": os.getenv("SHEETY_HEADERS")}
+SHEETY_HEADERS = {"Authorization": os.getenv("DAY_38_MY_WORKOUT_SHEETY_HEADERS")}
 sheety_get_response = requests.get(url=SHEETY_ENDPOINT)
 # print(sheety_get_response.json())
 
