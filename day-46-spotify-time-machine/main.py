@@ -19,11 +19,12 @@ song_names_spans = soup.select("li ul li h3")
 song_names = [song.getText().strip() for song in song_names_spans]
 
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=os.getenv("CLIENT_ID"),
-                                               client_secret=os.getenv("CLIENT_SECRET"),
-                                               redirect_uri=os.getenv("REDIRECT_URL"),
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=os.getenv("DAY_46_SPOTIFY_TIME_MACHINE_CLIENT_ID"),
+                                               client_secret=os.getenv("DAY_46_SPOTIFY_TIME_MACHINE_CLIENT_SECRET"),
+                                               redirect_uri=os.getenv("DAY_46_SPOTIFY_TIME_MACHINE_REDIRECT_URL"),
                                                scope="playlist-modify-public playlist-modify-private"))
 
 # taylor_url = 'spotify:artist:06HL4z0CvFAxyc27GXpf02'
