@@ -6,17 +6,18 @@ from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
 
 # Load environment variables from .env file
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
 
 class DataManager:
 
     def __init__(self):
-        self._user = os.environ["SHEETY_USERNAME"]
-        self._password = os.environ["SHEETY_PASSWORD"]
+        self._user = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_SHEETY_USERS_ENDPOINT"]
+        self._password = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_SHEETY_PASSWORD"]
         self._authorization = HTTPBasicAuth(self._user, self._password)
-        self.prices_endpoint = os.environ["SHEETY_PRICES_ENDPOINT"]
-        self.users_endpoint = os.environ["SHEETY_USERS_ENDPOINT"]
+        self.prices_endpoint = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_SHEETY_PRICES_ENDPOINT"]
+        self.users_endpoint = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_SHEETY_USERS_ENDPOINT"]
         self.destination_data = {}
         self.customer_data = {}
 

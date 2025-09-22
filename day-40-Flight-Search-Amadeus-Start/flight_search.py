@@ -4,7 +4,8 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
 IATA_ENDPOINT = "https://test.api.amadeus.com/v1/reference-data/locations/cities"
 FLIGHT_ENDPOINT = "https://test.api.amadeus.com/v2/shopping/flight-offers"
@@ -26,8 +27,8 @@ class FlightSearch:
         _api_secret (str): The API secret for authenticating with Amadeus, sourced from the .env file.
         _token (str): The authentication token obtained by calling the _get_new_token method.
         """
-        self._api_key = os.environ["AMADEUS_API_KEY"]
-        self._api_secret = os.environ["AMADEUS_SECRET"]
+        self._api_key = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_AMADEUS_API_KEY"]
+        self._api_secret = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_AMADEUS_SECRET"]
         # Getting a new token every time program is run. Could reuse unexpired tokens as an extension.
         self._token = self._get_new_token()
 

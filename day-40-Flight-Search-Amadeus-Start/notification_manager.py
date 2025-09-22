@@ -8,15 +8,15 @@ class NotificationManager:
 
     def __init__(self):
         # Retrieve environment variables only once
-        self.smtp_address = os.environ["EMAIL_PROVIDER_SMTP_ADDRESS"]
-        self.email = os.environ["MY_EMAIL"]
-        self.email_password = os.environ["MY_EMAIL_PASSWORD"]
-        self.twilio_virtual_number = os.environ["TWILIO_VIRTUAL_NUMBER"]
-        self.twilio_verified_number = os.environ["TWILIO_VERIFIED_NUMBER"]
-        self.whatsapp_number = os.environ["TWILIO_WHATSAPP_NUMBER"]
+        self.smtp_address = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_EMAIL_PROVIDER_SMTP_ADDRESS"]
+        self.email = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_MY_EMAIL"]
+        self.email_password = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_MY_EMAIL_PASSWORD"]
+        self.twilio_virtual_number = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_VIRTUAL_NUMBER"]
+        self.twilio_verified_number = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_VERIFIED_NUMBER"]
+        self.whatsapp_number = os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_WHATSAPP_NUMBER"]
         # Set up Twilio Client and SMTP connection
-        self.client = Client(os.environ['TWILIO_SID'], os.environ["TWILIO_AUTH_TOKEN"])
-        self.connection = smtplib.SMTP(os.environ["EMAIL_PROVIDER_SMTP_ADDRESS"])
+        self.client = Client(os.environ['DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_SID'], os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_AUTH_TOKEN"])
+        self.connection = smtplib.SMTP(os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_EMAIL_PROVIDER_SMTP_ADDRESS"])
 
     def send_sms(self, message_body):
         """
@@ -41,9 +41,9 @@ class NotificationManager:
         initialized.
         """
         message = self.client.messages.create(
-            from_=os.environ["TWILIO_VIRTUAL_NUMBER"],
+            from_=os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_VIRTUAL_NUMBER"],
             body=message_body,
-            to=os.environ["TWILIO_VIRTUAL_NUMBER"]
+            to=os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_VIRTUAL_NUMBER"]
         )
         # Prints if successfully sent.
         print(message.sid)
@@ -52,9 +52,9 @@ class NotificationManager:
     # https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn
     def send_whatsapp(self, message_body):
         message = self.client.messages.create(
-            from_=f'whatsapp:{os.environ["TWILIO_WHATSAPP_NUMBER"]}',
+            from_=f'whatsapp:{os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_WHATSAPP_NUMBER"]}',
             body=message_body,
-            to=f'whatsapp:{os.environ["TWILIO_VERIFIED_NUMBER"]}'
+            to=f'whatsapp:{os.environ["DAY_40_FLIGHT_SEARCH_AMADEUS_START_TWILIO_VERIFIED_NUMBER"]}'
         )
         print(message.sid)
 
