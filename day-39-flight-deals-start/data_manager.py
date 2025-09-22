@@ -5,15 +5,17 @@ from flight_data import FlightData
 from requests.auth import HTTPBasicAuth
 
 
-load_dotenv()
-SHEETY_PRICES_ENDPOINT = os.getenv("SHEETY_ENDPOINT")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
+
+SHEETY_PRICES_ENDPOINT = os.getenv("DAY_39_FLIGHT_DEALS_START_SHEETY_ENDPOINT")
 
 
 class DataManager:
     # This class is responsible for talking to the Google Sheet.
     def __init__(self):
-        self._user = os.environ["SHEETY_USRERNAME"]
-        self._password = os.environ["SHEETY_PASSWORD"]
+        self._user = os.environ["DAY_39_FLIGHT_DEALS_START_SHEETY_USERNAME"]
+        self._password = os.environ["DAY_39_FLIGHT_DEALS_START_SHEETY_PASSWORD"]
         self._authorization = HTTPBasicAuth(self._user, self._password)
         self.destination_data = {}
         # self.sheety_header = {"Authorization": os.getenv("SHEETY_HEADERS")}

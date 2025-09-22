@@ -1,17 +1,17 @@
 import os
-
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
 
 class FlightSearch:
     # This class is responsible for talking to the Flight Search API.
 
     def __init__(self, depart_date, adults=1, departure="KUL", destination="NTR"):
-        self.token_api_key = os.getenv('AMA_API_KEY')
-        self.token_api_secret = os.getenv('AMA_API_SECRET')
+        self.token_api_key = os.getenv('DAY_39_FLIGHT_DEALS_START_AMA_API_KEY')
+        self.token_api_secret = os.getenv('DAY_39_FLIGHT_DEALS_START_AMA_API_SECRET')
         self.adults = adults
         self.depart_date = depart_date
         self.flight_offer_response = None
