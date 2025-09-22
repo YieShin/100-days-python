@@ -1,16 +1,16 @@
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
 from bs4 import BeautifulSoup
 import requests
 import os
 from dotenv import load_dotenv
 import smtplib
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
-EMAIL_ADDRESS = os.getenv("EMAIL_USER")
-EMAIL_PASSWORD = os.getenv("EMAIL_PASS")
+EMAIL_ADDRESS = os.getenv("DAY_47_LOWER_PRICE_SHOPPING_TO_EMAIL")
+EMAIL_PASSWORD = os.getenv("DAY_47_LOWER_PRICE_SHOPPING_EMAIL_PASS")
 TO_EMAIL = os.getenv("TO_EMAIL")
 
 # url = "https://appbrewery.github.io/instant_pot/"

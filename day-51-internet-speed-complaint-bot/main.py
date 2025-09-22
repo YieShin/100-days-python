@@ -8,12 +8,13 @@ from selenium.webdriver.common.by import By
 from dotenv import load_dotenv
 from datetime import datetime
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
 PROMISED_DOWN = 100  # Your expected download speed (in Mbps)
 PROMISED_UP = 10  # Your expected upload speed (in Mbps)
-TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
-TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
+TWITTER_EMAIL = os.getenv("DAY_51_INTERNET_SPEED_COMPLAINT_BOT_TWITTER_EMAIL")
+TWITTER_PASSWORD = os.getenv("DAY_51_INTERNET_SPEED_COMPLAINT_BOT_TWITTER_PASSWORD")
 
 
 class InternetSpeedTwitterBot:

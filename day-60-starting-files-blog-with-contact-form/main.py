@@ -8,12 +8,13 @@ from flask import Flask, render_template, request
 posts = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
 app = Flask(__name__)
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 # Email configuration (replace with your details)
 SMTP_SERVER = "smtp.gmail.com"  # For Gmail
 SMTP_PORT = 587
-EMAIL_ADDRESS = os.getenv("EMAIL")  # Your email
-EMAIL_PASSWORD = os.getenv("PASSWORD")  # Your app password
+EMAIL_ADDRESS = os.getenv("DAY_60_STARTING_FILES_BLOG_WITH_CONTACT_FORM_EMAIL")  # Your email
+EMAIL_PASSWORD = os.getenv("DAY_60_STARTING_FILES_BLOG_WITH_CONTACT_FORM_PASSWORD")  # Your app password
 
 
 @app.route('/')

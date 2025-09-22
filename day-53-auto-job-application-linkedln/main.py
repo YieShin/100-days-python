@@ -8,10 +8,11 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
-ACCOUNT_EMAIL = os.environ.get("ACCOUNT_EMAIL")
-ACCOUNT_PASSWORD = os.environ.get("ACCOUNT_PASSWORD")
+ACCOUNT_EMAIL = os.environ.get("DAY_53_AUTO_JOB_APPLICATION_LINKEDLN_ACCOUNT_EMAIL")
+ACCOUNT_PASSWORD = os.environ.get("DAY_53_AUTO_JOB_APPLICATION_LINKEDLN_ACCOUNT_PASSWORD")
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)

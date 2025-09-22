@@ -1,5 +1,4 @@
 import os
-
 import requests
 from dotenv import load_dotenv
 from flask import Flask, render_template, request, redirect, url_for
@@ -12,8 +11,10 @@ from wtforms import FloatField, SubmitField
 from wtforms.fields.simple import TextAreaField
 from wtforms.validators import DataRequired, NumberRange
 
-load_dotenv()
-TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
+
+TMDB_API_KEY = os.getenv("DAY_64_STARTING_FILES_TOP_MOVIES_TMDB_API_KEY")
 
 app = Flask(__name__)
 Bootstrap5(app)

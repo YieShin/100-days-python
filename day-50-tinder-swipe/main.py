@@ -1,6 +1,5 @@
 import os
 import time
-
 from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException, \
@@ -11,11 +10,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
-ACCOUNT_EMAIL = os.environ.get("ACCOUNT_EMAIL")
-ACCOUNT_PASSWORD = os.environ.get("ACCOUNT_PASSWORD")
-PHONE_NUMBER = os.environ.get("PHONE_NUMBER")
+ACCOUNT_EMAIL = os.environ.get("DAY_50_TINDER_SWIPE_ACCOUNT_EMAIL")
+ACCOUNT_PASSWORD = os.environ.get("DAY_50_TINDER_SWIPE_ACCOUNT_PASSWORD")
+PHONE_NUMBER = os.environ.get("DAY_50_TINDER_SWIPE_PHONE_NUMBER")
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
