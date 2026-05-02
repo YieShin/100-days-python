@@ -1,91 +1,77 @@
-# 🐍 100 Days of Python — My Coding Journey
+🐍 100 Days of Python — My Coding Journey
 
-Welcome to my **100 Days of Python** learning journey!  
-This repository contains daily hands-on projects and exercises based on [Dr. Angela Yu’s Python Bootcamp](https://www.udemy.com/course/100-days-of-code/) on Udemy.
+Welcome to my 100 Days of Python learning journey!
+This repository contains daily hands-on projects and exercises based on Dr. Angela Yu’s Python Bootcamp on Udemy.
 
-## 🚀 About Me
+🚀 About Me
 
-Hi, I’m Nickolas (Chua Yie Shin), aspiring software developer based in Johor Bahru, Malaysia.  
-I'm currently transitioning into tech, focusing on Python and data science.
+Hi, I’m Shin (Chua Yie Shin), an aspiring software developer based in Johor Bahru, Malaysia.
+I'm currently transitioning into tech, focusing on Python, automation, and web development.
 
-- 🎯 Goal: Become a full-time software developer or data analyst
-- 👨‍💻 Experience: 60+ days into the challenge (currently on Day 63)
-- 🔧 Tools: Python, Git, GitHub, JSON, APIs, OOP, Tkinter, Requests
+🎯 Goal: Become a full-time software developer or data analyst
+👨‍💻 Experience: 70+ days into the challenge (currently on Day 79)
+🔧 Tools: Python, Git, GitHub, JSON, APIs, Flask, Bootstrap, Selenium
+📚 Progress
+Day Range	Topics Covered	Status
+Day 1–15	Python basics, control flow, loops, functions	✅ Completed
+Day 16–30	OOP, file handling, GUI apps with Tkinter	✅ Completed
+Day 31–40	APIs, authentication, JSON, environment variables	✅ Completed
+Day 41–50	Web scraping, automation scripts, API integration	✅ Completed
+Day 51–61	Advanced automation, bots, Flask basics	✅ Completed
+Day 62–70	Flask web apps, databases, Bootstrap styling	✅ Completed
+Day 71–79	Authentication, user login systems, deployment basics	🔄 In Progress
+🧠 Key Projects
+Project	Description	Link
+📧 Mail Merge	Auto-sends personalized letters via Python	–
+🐢 Turtle Crossing Game	Arcade-style game using turtle	–
+🐍 Snake Game	Classic Snake with scoring system	–
+⏱ Pomodoro App	GUI timer with work/break intervals	–
+🧠 Flash Card App	Vocabulary revision tool with progress save	–
+🌦 Rain Alert (API)	Sends SMS if rain is expected	–
+💰 Stock News Notifier	Alerts on significant stock price changes	–
+✈️ Flight Deal Finder (Day 40)	Finds cheap flights using APIs	–
+🎬 Top Movies Web App	Flask app with Bootstrap UI	–
+🔐 User Authentication System	Login/register system with Flask	–
+🤖 Web Automation Bot (Selenium)	Automates browser tasks	–
 
----
+ℹ️ Projects using APIs and environment variables are uploaded safely without sensitive data.
 
-## 📚 Progress
-
-| Day Range | Topics Covered                                      | Status       |
-|-----------|------------------------------------------------------|--------------|
-| Day 1–15  | Python basics, control flow, loops, functions        | ✅ Completed |
-| Day 16–30 | OOP, file handling, GUI apps with Tkinter            | ✅ Completed |
-| Day 31–40 | APIs, authentication, JSON, environment variables    | ✅ Completed |
-| Day 41–50   | Web scraping, automation scripts, API integration    | ✅ Completed |
-| Day 51–61   | Advanced automation projects, web bots, Flask basics | ✅ Completed |
-| Day 62–64   | Flask web apps, Top Movies project, Bootstrap styling | 🔄 In Progress |
-
----
-
-## 🧠 Key Projects
-
-| Project                              | Description                                    | Link |
-|--------------------------------------|------------------------------------------------|------|
-| 📧 Mail Merge                        | Auto-sends personalized letters via Python     | –    |
-| 🐢 Turtle Crossing Game              | A simple arcade-style game using `turtle`      | –    |
-| 🐍 Snake Game                        | Classic Snake with graphics and scoring        | –    |
-| ⏱ Pomodoro App                      | GUI timer with work/break intervals            | –    |
-| 🧠 Flash Card App                   | Vocabulary revision tool with progress save    | –    |
-| 🌦 Rain Alert (API)                  | Sends SMS alert if it’s going to rain today    | –    |
-| 💰 Stock News Notifier              | Alerts you if stock price moves sharply        | –    |
-| ✈️ Flight Deal Finder (Day 40)      | Uses Sheety + Amadeus API to find cheap flights| –    |
-| 🎬 Top Movies Web App (Day 64)       | Flask + Bootstrap app displaying top movies       | –    |
-
-> ℹ️ Many projects use **APIs**, **.env files**, and are cleaned of any sensitive data before uploading.
-
----
-
-## 📂 Folder Structure
+📂 Folder Structure
 
 Each project is organized by day:
+
 100-days-of-code/
 ├── day-01/
 ├── day-02/
 ├── ...
-├── day-40/
+├── day-79/
 └── README.md
----
-
-## 🛠 Tech Stack & Skills
-
-- ✅ Python 3.11+
-- ✅ Object-Oriented Programming
-- ✅ GUI with Tkinter
-- ✅ JSON / REST APIs / Web Requests
-- ✅ Environment Variables (.env)
-- ✅ Git & GitHub
-
----
-
-## 🧭 What's Next?
-
-- Day 41+: Web scraping, Selenium, and automation tools
-- Personal projects: Grab earnings tracker, data dashboards
-- Eventually pursue: [Coursera Data Analyst/Scientist Path](https://www.coursera.org)
-
----
-
-## 🙏 Acknowledgements
+🛠 Tech Stack & Skills
+✅ Python 3.11+
+✅ Object-Oriented Programming
+✅ Flask (Web Development)
+✅ Tkinter (GUI Apps)
+✅ REST APIs & JSON
+✅ Web Scraping (BeautifulSoup, Selenium)
+✅ Environment Variables (.env)
+✅ Git & GitHub
+🧭 What's Next?
+Complete Day 80–100 (advanced Flask, deployment, APIs)
+Build real-world portfolio projects:
+Grab earnings tracker
+Personal finance dashboard
+Explore:
+Data Analytics (Pandas, Matplotlib)
+Backend development (Django / APIs)
+🙏 Acknowledgements
 
 Special thanks to:
-- [Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/) — for the amazing course
-- GitHub Community — for guiding my first commits and pushes!
 
----
-
-## 📬 Connect
+Dr. Angela Yu — for the amazing course
+GitHub Community — for helping me learn version control
+📬 Connect
 
 Feel free to follow or reach out:
 
-- GitHub: [@YieShinGT](https://github.com/YieShinGT)
-- LinkedIn: www.linkedin.com/in/yie-shin-chua-05aa962bb
+GitHub: https://github.com/YieShin
+LinkedIn: www.linkedin.com/in/yie-shin-chua-05aa962bb
