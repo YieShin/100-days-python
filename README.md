@@ -104,6 +104,12 @@ I'm currently transitioning into tech, focusing on **Python, automation, and web
 
 ---
 
+## 🎓 Education
+
+* 🎓 **Master of Business Administration (MBA)** — *Currently Pursuing year 2026*
+* 🎓 **Diploma** — *(Computer Science 2023-2025)*
+
+
 ## 📬 Connect With Me
 
 * GitHub: https://github.com/YieShin
